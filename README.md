@@ -1,7 +1,7 @@
 
 # 🍽️ Pretty Plates
 
-**Welcome to Pretty Plates — where food becomes art.** This project showcases our restaurant's web presence, featuring a beautifully designed and interactive website that reflects our passion for flavor, creativity, and heartfelt hospitality.
+**Welcome to Pretty Plates  <i>where food becomes art.<i>** This project showcases our restaurant's web presence, featuring a beautifully designed and interactive website that reflects our passion for flavor, creativity, and heartfelt hospitality.
 
 ---
 
@@ -11,7 +11,7 @@
 
 Our restaurant is a celebration of flavor, creativity, and heartfelt hospitality. Whether you're savoring our signature *Pizza Paratha*, diving into a bowl of *Spicy Biryani*, or indulging in perfectly crafted desserts, each bite tells a story of passion and perfection.
 
-**Come for the food, stay for the memories** — because at Pretty Plates, every plate is an invitation to something extraordinary.
+**Come for the food, stay for the memories** <i> because at Pretty Plates, every plate is an invitation to something extraordinary.<i>
 
 ---
 

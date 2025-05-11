@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pretty Plates</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="icon" href="/images/logo-removebg-preview.png" type="image/png">
+<style>
+    body{
+        scroll-behavior: smooth;
+    }
+    header{
+        height: 100px;
+        width: 100%;
+        background-color: white;
+    }
+    .head{
+        color: black;
+        text-decoration: none;
+        margin-left: 100px;
+        font-size: 18px;
+        float: left;
+        margin-top: 38px;
+        font-weight: bolder;
+    }
+    #menu{
+        border-collapse: collapse;
+        border: 0px;
+    }
+    #menu option{
+        border-collapse: collapse;
+        border: 0px;
+    }
+    #menu:hover{
+        color: brown;
+    }
+    #home{
+        margin-left: 430px;
+    }
+    a:hover{
+        color: red;
+    }
+    header p{
+        color: black;
+        font-size: 30px;
+        font-family: 'Tangerine', serif;
+        font-weight: bolder;
+        padding-top: 5px;
+        float: left;
+        padding-left: 0px;
+    }
+    header img{
+        width: 150px;
+        height: 90px;
+        float: left;
+    }
+    body {
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .switch {
+      width: 60px;
+      height: 30px;
+      background: #ccc;
+      border-radius: 50px;
+      position: relative;
+      cursor: pointer;
+      margin-left: 1400px;
+      margin-top: 32px;
+      position: absolute;
+    }
+    .circle {
+      width: 26px;
+      height: 26px;
+      background: white;
+      border-radius: 50%;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      transition: transform 0.3s;
+    }
+    .switch.active {
+      background: lightpink;
+    }
+    .switch.active .circle {
+      transform: translateX(30px);
+    }
+    .container{
+        background-color: rgba(255, 255, 255, 0.9);
+        margin: 50px auto;
+        padding: 30px 20px;
+        max-width: 600px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    .container h1{
+        font-family: 'Tangerine', serif;
+        font-size: 50px;
+        text-align: center;
+        color: brown;
+        margin-bottom: 20px;
+    }
+    form label{
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+        display: block;
+        margin: 10px 0 5px;
+    }
+    form input, form textarea, form select, form button{
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    form button{
+        background-color: brown;
+        color: white;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    form button:hover{
+        background-color: darkred;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    footer p{
+        font-size: 14px;
+        margin: 0;
+    }
+</style>
+</head>
+<body>
+    <header>
+    <nav>
+    <img src="/images/logo-removebg-preview.png">
+    <p>Pretty Plates</p>
+    <span><a href="/project.html" class="head" id="home">Home</a></span>
+    <span><a href="/project.html#ourrecipes" class="head">Menu</a></span>
+    <span><a href="/factsandfigures.html" class="head" id="faqs">FAQs</a></span>
+    <span><a href="/about_us.html" class="head" id="contact">About Us</a></span>
+    <span><a href="/feedback.html" class="head" id="faf">Feedback</a></span>
+    <div class="switch" onclick="toggleMode()">
+        <div class="circle"></div>
+    </div>
+    </nav>
+    </header>
+    <div class="container">
+        <h1>We Value Your Feedback!</h1>
+        <form action="process_feedback.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <label for="rating">Rate Us:</label>
+            <select id="rating" name="rating" required>
+                <option value="">Choose a rating</option>
+                <option value="1">1 - Poor</option>
+                <option value="2">2 - Below Average</option>
+                <option value="3">3 - Average</option>
+                <option value="4">4 - Good</option>
+                <option value="5">5 - Excellent</option>
+            </select>
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Write your feedback here..." required></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2025 Pretty Plates. All Rights Reserved.</p>
+    </footer>
+</body>
+<script src="/toggle_mode.js"></script>
+</html>

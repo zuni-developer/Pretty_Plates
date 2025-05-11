@@ -1,0 +1,727 @@
+body{
+    scroll-behavior: smooth;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+.head{
+    color: black;
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 18px;
+    float: left;
+    margin-top: 38px;
+    font-weight: bolder;
+}
+#menu{
+    border-collapse: collapse;
+    border: 0px;
+}
+#menu option{
+    border-collapse: collapse;
+    border: 0px;
+}
+#menu:hover{
+    color: brown;
+}
+#home{
+    margin-left: 430px;
+}
+a:hover{
+    color: red;
+}
+header p{
+    color: black;
+    font-size: 30px;
+    font-family: 'Tangerine', serif;
+    font-weight: bolder;
+    padding-top: 5px;
+    float: left;
+    padding-left: 0px;
+}
+header img{
+    width: 150px;
+    height: 90px;
+    float: left;
+}
+#mainSection{
+    background-image: url('background1.jpg');
+    background-size: cover;
+    height: 650px;
+    margin-top: 0px;
+    width: 100%;
+    position: static;
+    background-attachment: fixed;
+}
+#welcome{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    padding-top: 130px;
+    padding-left: 440px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0.2, 0.2, 0.2, 1),
+                    5px 5px 10px rgba(0, 0, 0, 1);
+}
+#name{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    padding-top: 260px;
+    padding-left: 498px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0.2, 0.2, 0.2, 1),
+                    5px 5px 10px rgba(0, 0, 0, 1);
+    font-family: 'Tangerine', serif;
+    font-weight: bold;
+}
+#ourrecipes{
+    height: 1700px;
+    width: 100%;
+}
+#pizzaparata{
+    height: 631px;
+    width: 600px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    margin-left: 150px;
+    margin-top: 70px;
+    float: left;
+}
+#recipetxt{
+    color: brown;
+    padding-left: 680px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+.lunch{
+    color: brown;
+    padding-left: 740px;
+    padding-top: 10px;
+    font-size: 28px;
+}
+#pizzaparata img{
+    height: 400px;
+    width: 590px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: transform 0.5s;
+}
+#pizzaparata h1{
+    padding-left: 20px;
+    font-size: 35px;
+    position: absolute;
+}
+#pizzaparata p{
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    
+}
+#priceOfBiryani{
+    color: brown;
+    position: absolute;
+    top: 1510px;
+    left: 600px;
+    font-size: 22px;
+}
+#biryani{
+    height: 1300px;
+    width: 300px;
+    position: absolute;
+    margin-left: 780px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    float: left;
+    margin-top: 70px;
+}
+#biryani img{
+    height: 200px;
+    width: 290px;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+.name{
+    padding-left: 10px;
+    position: a;
+}
+.price{
+    color: brown;
+    padding-left: 230px;
+    font-weight: bold;
+}
+#chaat{
+    height: 1300px;
+    width: 300px;
+    position: absolute;
+    margin-left: 1110px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    float: left;
+    margin-top: 70px;
+}
+#chaat img{
+    height: 200px;
+    width: 290px;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+#qorma{
+    width: 290px;
+    height: 669px;
+    margin-left: 460px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    float: left;
+    position: absolute;
+    margin-top: 702px;
+}
+#qorma img{
+    height: 200px;
+    width: 280px;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+#next{
+    width: 290px;
+    height: 669px;
+    margin-left: 150px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    float: left;
+    position: absolute;
+    margin-top: 702px;
+}
+#next img{
+    height: 200px;
+    width: 280px;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+#ppofckarahi{
+    float: left;
+    position: absolute;
+    padding-left: 200px;
+    color: brown;
+    top: 568px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#ppofmkarahi{
+    float: left;
+    position: absolute;
+    padding-left: 200px;
+    color: brown;
+    top: 588px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+#ckarahi{
+    float: left;
+    position: absolute;
+    bottom: 700px;
+}
+#mkarahi{
+    float: left;
+    position: absolute;
+    bottom: 680px;
+}
+#alfaredo{
+    float: left;
+    position: absolute;
+    bottom: 380px;
+}
+#reds{
+    float: left;
+    position: absolute;
+    bottom: 360px;
+}
+#ppofalfarido{
+    float: left;
+    position: absolute;
+    padding-left: 200px;
+    color: brown;
+    top: 888px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#ppofreds{
+    float: left;
+    position: absolute;
+    padding-left: 200px;
+    color: brown;
+    top: 908px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.img:hover{
+    transform: scale(0.85);
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+#breakfast{
+    height: 1200px;
+    width: 100%;
+}
+#paratha{
+    height: 631px;
+    width: 600px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    margin-left: 810px;
+    margin-top: 70px;
+    float: left;
+}
+#paratha img{
+    height: 400px;
+    width: 590px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: transform 0.5s;
+}
+#paratha h1{
+    padding-left: 20px;
+    font-size: 35px;
+    position: absolute;
+}
+#paratha p{
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    
+}
+#priceOfparata{
+    color: brown;
+    position: absolute;
+    top: 3130px;
+    left: 1300px;
+    font-size: 22px;
+}
+#chai{
+    height: 630px;
+    width: 300px;
+    position: absolute;
+    margin-left: 480px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    float: left;
+    margin-top: 70px;
+}
+#chai img{
+    height: 200px;
+    width: 290px;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+#coffee{
+    height: 630px;
+    width: 300px;
+    position: absolute;
+    margin-left: 150px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    float: left;
+    margin-top: 70px;
+}
+#coffee img{
+    height: 200px;
+    width: 290px;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+#channe{
+    width: 400px;
+    height: 369px;
+    margin-left: 1010px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    float: left;
+    position: absolute;
+    margin-top: 702px;
+}
+#channe img{
+    height: 250px;
+    width: 390px;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+#halwa{
+    width: 400px;
+    height: 369px;
+    margin-left: 580px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    float: left;
+    position: absolute;
+    margin-top: 702px;
+}
+#halwa img{
+    height: 250px;
+    width: 390px;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+#omelette{
+    float: left;
+    position: absolute;
+    bottom: 405px;
+}
+#chesseo{
+    float: left;
+    position: absolute;
+    bottom: 35px;
+}
+#ppofcheese{
+    float: left;
+    position: absolute;
+    padding-left: 200px;
+    color: brown;
+    top: 563px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#ppofomelette{
+    float: left;
+    position: absolute;
+    padding-left: 200px;
+    color: brown;
+    top: 584px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#green{
+    float: left;
+    position: absolute;
+    bottom: 350px;
+}
+#black{
+    float: left;
+    position: absolute;
+    bottom: 330px;
+}
+#ppofgreen{
+    float: left;
+    position: absolute;
+    padding-left: 200px;
+    color: brown;
+    top: 250px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#ppofblack{
+    float: left;
+    position: absolute;
+    padding-left: 200px;
+    color: brown;
+    top: 270px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#pizzap{
+    width: 400px;
+    height: 369px;
+    margin-left: 150px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    float: left;
+    position: absolute;
+    margin-top: 702px;
+}
+#pizzap img{
+    height: 250px;
+    width: 390px;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+#snacks{
+    height: 850px;
+    width: 100%;
+}
+#fries{
+    height: 631px;
+    width: 600px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    margin-left: 150px;
+    margin-top: 70px;
+    float: left;
+}
+#fries img{
+    height: 400px;
+    width: 590px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: transform 0.5s;
+}
+#fries h1{
+    padding-left: 20px;
+    font-size: 35px;
+    position: absolute;
+}
+#fries p{
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    
+}
+#priceOffries{
+    color: brown;
+    position: absolute;
+    top: 4350px;
+    left: 600px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#samosa{
+    height: 630px;
+    width: 300px;
+    position: absolute;
+    margin-left: 780px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    float: left;
+    margin-top: 70px;
+}
+#samosa img{
+    height: 200px;
+    width: 290px;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+#russian{
+    height: 630px;
+    width: 300px;
+    position: absolute;
+    margin-left: 1110px;
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    float: left;
+    margin-top: 70px;
+}
+#russian img{
+    height: 200px;
+    width: 290px;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+#beverages{
+    height: 1000px;
+    width: 100%;
+}
+#mint{
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    margin-left: 150px;
+    margin-top: 90px;
+    float: left;
+    height: 300px;
+    width: 300px
+}
+#mint img{
+    width:290px ;
+    height: 150px;
+    padding: 5px;
+}
+#lassi{
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    margin-left: 30px;
+    margin-top: 90px;
+    float: left;
+    height: 300px;
+    width: 300px
+}
+#lassi img{
+    width:290px ;
+    height: 150px;
+    padding: 5px;
+}
+#banana{
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    margin-left: 30px;
+    margin-top: 90px;
+    float: left;
+    height: 300px;
+    width: 300px
+}
+#banana img{
+    width:290px ;
+    height: 150px;
+    padding: 5px;
+}
+#soft{
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    margin-left: 30px;
+    margin-top: 90px;
+    float: left;
+    height: 300px;
+    width: 300px
+}
+#soft img{
+    width:290px ;
+    height: 150px;
+    padding: 5px;
+}
+#strawberry{
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    left: 160px;
+    margin-top: 35px;
+    float:left;
+    height: 350px;
+    width: 400px;
+    position: absolute;
+}
+#strawberry img{
+    width:390px ;
+    height: 200px;
+    padding: 5px;
+}
+#chocolate{
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    left: 610px;
+    margin-top: 35px;
+    float: left;
+    position: absolute;
+    height: 350px;
+    width: 400px
+}
+#chocolate img{
+    width:390px ;
+    height: 200px;
+    padding: 5px;
+}
+#hot{
+    border: 1px solid rgb(215, 213, 213);
+    box-shadow:1px 1px 2px rgba(200, 200, 200, 0.8) ;
+    left: 1050px;
+    margin-top: 35px;
+    float: left;
+    position: absolute;
+    height: 350px;
+    width: 400px
+}
+#hot img{
+    width:390px ;
+    height: 200px;
+    padding: 5px;
+}
+.price2{
+    color: brown;
+    padding-left: 310px;
+    font-weight: bold;
+}
+#delievery{
+    height: 500px;
+    width: 100%;
+}
+#comings{
+    width: 92%;
+    height: 300px;
+    background-color:rgb(173, 72, 72);
+    margin-left: 80px;
+}
+#comings h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 800px;
+    padding-top: 120px;
+}
+#comings img{
+    margin-left: 50px;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 5640px;
+}
+#footer{
+    height: 400px;
+    width: 100%;
+}
+#foot{
+    background-color: black;
+    height: 400px;
+    width:100%;
+}
+#phone{
+    width: 15px;
+    height: 15px;
+    margin-top: 21px;
+    margin-left: 80px;
+}
+#envelope{
+    width: 30px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+#foot h1{
+    color: white;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+#foot p{
+    color: white;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+#foot font{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+}
+#num{
+    padding-top: 20px;
+    padding-left: 16px;
+}
+#email{
+    padding-top: 12px;
+    padding-left: 10px;
+}
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+.switch {
+    width: 60px;
+    height: 30px;
+    background: #ccc;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 1400px;
+    margin-top: 32px;
+    position: absolute;
+}
+.circle {
+    width: 26px;
+    height: 26px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s;
+}
+.switch.active {
+    background: lightpink;
+}
+.switch.active .circle {
+    transform: translateX(30px);
+}
+#copy{
+        left: 650px;
+        top: 6480px;
+        position: absolute;
+}
